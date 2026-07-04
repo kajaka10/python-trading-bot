@@ -263,7 +263,7 @@ def check_and_close_positions():
 
             # Sygnał odwrócenia sprawdzamy tylko w głównej pętli run_cycle
             # żeby nie dublować wywołań Claude
-            if False:
+            if:
                 print(f"  🔄 {symbol}: Odwrócenie sygnału! "
                       f"{direction} → {new_action} | {reason}")
                 logging.info(
